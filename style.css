@@ -1,0 +1,86 @@
+main{
+    display: flex;
+    margin-left: 80px;
+    margin-bottom: 50px;
+}
+
+.input-texto{
+width: 150px;
+height: 170px;
+border-radius: 12px;
+border: 2px solid #008CBA;
+-webkit-transition-duration: 0.4s; /* Safari */
+transition-duration: 0.4s;
+}
+
+.input-texto:hover{
+border:2px solid #e6f513; 
+}
+
+.mensaje{
+    position: relative;
+    width: 352px;
+    height: 366px;
+    margin-top: 20px;
+    margin-left: 90px;
+    border-radius: 12px;
+    background-image: url("imagenes/Muñeco.png");
+    background-repeat: no-repeat;
+    background-position: 18px;
+    background-size: 300px;
+    border: 2px solid #4CAF50; 
+    text-align: center;
+    
+
+
+}
+
+.encriptar{
+    background-color: #008CBA;
+    width: 45%;
+    font-size: 70%;
+    border-radius: 12px;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19); 
+    border: none;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s; 
+}
+
+.encriptar:hover{
+    background-color: #4ca0af; /* Green */
+    color: rgb(241, 238, 11);
+    border: #e6f513;
+}
+
+.desencriptar{
+    background-color: #00ba19;
+    width: 45%;
+    font-size: 70%;
+    border-radius: 12px;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19); 
+    border: none;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s; 
+}
+
+.desencriptar:hover{
+    background-color: #b3fd07; /* Green */
+    color: white;
+}
+
+.copiar{
+    background-color: #00ba19;
+    width: 30%;
+    margin-left: 40%;
+    font-size: 16px;
+    border-radius: 12px;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19); 
+    border: none;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s; 
+}
+
+.copiar:hover{
+    background-color: #91af4c; /* Green */
+    color: white; 
+}
